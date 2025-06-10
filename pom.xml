@@ -11,6 +11,7 @@
     <modules>
         <module>SpringTest</module>
         <module>ParkingLot</module>
+        <module>JavaPractice</module>
     </modules>
 
     <properties>
