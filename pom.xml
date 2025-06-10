@@ -13,6 +13,7 @@
         <module>ParkingLot</module>
         <module>JavaPractice</module>
         <module>MessagingApp</module>
+        <module>InMemoryDb</module>
     </modules>
 
     <properties>
