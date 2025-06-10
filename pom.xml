@@ -12,6 +12,7 @@
         <module>SpringTest</module>
         <module>ParkingLot</module>
         <module>JavaPractice</module>
+        <module>MessagingApp</module>
     </modules>
 
     <properties>
