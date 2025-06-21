@@ -1,15 +1,21 @@
 package com.diksha.service;
 
 
-import com.diksha.service.IMessageService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+
+@RequiredArgsConstructor
 public class MessageProcessor {
 
-    IMessageService messageService;
 
-    public MessageProcessor(IMessageService messageService) {
+
+    private final IMessageService messageService;
+
+ /*   public MessageProcessor(IMessageService messageService) {
         this.messageService = messageService;
-    }
+    }*/
 
     public String sendMessage(String message) {
         return messageService.sendMessage(message);

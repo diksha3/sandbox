@@ -1,5 +1,9 @@
 package com.diksha.service;
 
+
+import org.springframework.stereotype.Service;
+
+
 public class EmailService implements IMessageService{
     @Override
     public String sendMessage(String messageSender) {
