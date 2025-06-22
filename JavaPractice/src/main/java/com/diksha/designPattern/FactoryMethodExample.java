@@ -1,4 +1,4 @@
-package com.diksha;
+package com.diksha.designPattern;
 
 // 1. Product Interface
 interface Vehicle {
